@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+    .header
+    {
+     background-color: rgb(93, 93, 165);
+     height: 100px;
+     position:fixed;
+     z-index: 1;
+    }
+    .menu
+    {
+     float: right;
+     font-size: 20px;
+    margin-top: 50px;
+    }
+    .image
+    {
+     height:60px;
+     width:60px;
+     float:left;
+
+    }
+    .home
+    {
+     color: rgb(244, 235, 235);
+     width:30px;
+     height:50px;
+    }
+    .button
+    {
+width:120px;
+     height:50px;
+     
+    }
+    .info
+    {
+     color:  rgb(244, 235, 235);
+     margin-top: 10px;
+    }
+    .logo
+    {
+
+     margin-top: 40px;
+    }
+    .search
+    {
+     margin-right: 50px;
+     margin-left: 70px;
+    }
+    .image1
+    {
+     width:100%;
+     height:600px;
+    }
+    .address
+    {
+      margin-top: 50px;
+      width: 100%;
+    }
+    .share
+{
+  font-weight: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+.media
+{
+  margin-left: 40%;
+  
+}
+.media ul
+{
+  list-style: none;
+}
+.media ul li
+{
+  float: left;
+  margin-left: 10px;
+ 
+}
+
+ .fb
+{
+ 
+    width: 50px;
+    height:50px;
+   
+}
+.fb:hover
+{
+  color: rgb(59,89,152) !important;
+}   
+.twitter1
+ {
+  width: 50px;
+    height:50px;
+ }
+ .whats
+ {
+  width: 50px;
+    height:50px;
+    color:rgb(31,211,102);
+ }
+ .instag
+{
+  
+    width: 50px;
+    height:50px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color:white;
+}
+.instag:hover
+ {
+  color:white; 
+ }
+.footer
+{
+  width:100%;
+  height:600px;
+  background-color:rgb(93, 93, 165);
+  margin-top: 70px;
+}
+.disc
+{
+  font-size: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.footer p
+{
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 100px;
+  color:white;
+}
+.para
+ {
+  float: left;
+ }
+ .sgst
+ {
+  float: right;
+
+ }
+ .back
+ {
+  margin-right: 200px;
+  margin-left: 50px;
+  width: 500px;
+  height: 100px;
+  background-color: rgb(59,89,152);
+border: 2px solid brown;
+padding: 5px;
+
+ }
+.feedback p
+ {
+  text-align: justify;
+ }
+ .submit
+ {
+  margin: 5px;
+  color:green;
+  border:2px solid brown ;
+ background-color:rgb(59,89,152) ;
+ }
+ .feed
+ {
+  
+  margin-right: 200px;
+  margin-left: 50px;
+  width: 500px;
+  height: 50px;
+  background-color: rgb(59,89,152);
+border: 2px solid brown;
+padding: 5px;
+
+ }
+ .ruler
+ {
+  width:100%;
+  color:white;
+ }
+ .faq ul
+ {
+  list-style: none;
+ }
+ .faq ul li
+ {
+  float: left;
+  margin-left: 20px;
+ }
+ .faq a 
+ {
+  color:white;
+  font-size: 20px;
+  text-decoration: none;
+ }
+ .vertical
+ {
+  border:1px solid white;
+  height:40px;
+ }
+ 
+    .bgimage
+    {
+      background-image: url("health.jpg");
+      width:100%;
+      height:500px;
+      background-size: 100% 100%;
+      padding: 200px;
+      color:white;
+      font-size: 30px;
+      text-align: center;
+    }
+    .cloth
+{
+    color:rgb(59,89,152);
+    font-size: 20px;
+    font-weight: 10px;
+}
+  .con
+  {
+    margin-top: 50px;  
+  }
+  .hor
+  {
+margin-left: 10px;
+  }
+  .get
+  {
+    font-size: 20px;
+   
+  }
+  .but
+  {
+    text-decoration: none;
+    color:rgb(59,89,152);
+  }
+       </style>
+       <body>
+           <nav class="navbar navbar-expand-sm bg-light">
+               <div class="container-fluid header">
+                 <div class="logo"><img src="logo.jpeg " class="image"></div>
+                 <div class="menu"> 
+                 <ul class="navbar-nav my ">
+                   <li class="nav-item">
+                     <a class="nav-link" href="project.html"><i class="fa-solid fa-house-user home"></i></a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link info" href="#">About Us</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link info" href="#">Impact</a>
+                   </li>
+                 <li class="nav-item">
+                   <a class="nav-link info" href="#">Get Involved</a>
+                 </li>
+               <li class="nav-item">
+                 <a class="nav-link info" href="#">Latest Update</a>
+               </li>
+             <li class="nav-item">
+               <a class="nav-link info" href="#">Contribute Material</a>
+             </li>
+           <li class="nav-item">
+             <a class="nav-link info" href="#">Contact Us</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link info" href="#">Covid Help</a>
+           </li>
+           <ul class="navbar-nav">
+           <li class="nav-item">
+             <a class="nav-link info search" href="# ">
+         <i class="fa-sharp fa-solid fa-magnifying-glass"></i></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link info" href="#"><i class="fa-brands fa-facebook"></i></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link info" href="#"><i class="fa-brands fa-instagram insta"></i></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link info" href="#"><i class="fa-brands fa-square-twitter twitter"></i></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link info" href="#"><i class="fa-brands fa-square-youtube"></i></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#"><button type="button" class="btn btn-danger button" value="contribute">CONTRIBUTE</button></a>
+           </li>
+             </ul>
+        </div>
+             </nav>
+            <div class="bgimage">Health</div>
+            <div class="row g-0">
+              <div class="col-md-10 mt-3">
+                <div class="card mb-3"   >
+                  <div class="row g-0">
+                   <div class="col-md-4">
+                     <img src="health4.webp" class="img-fluid rounded-start" alt="..." style="height:350px">
+                   </div>
+                   <div class="col-md-8">
+                     <div class="card-body">
+                       <h5 class="card-title title" >Chuppi Todo Tuesdays</h5>
+                       <p class="card-text">“Earlier we were eating only onion & chili but now we eat green vegetables!.” shared Jamna Devi from Dahi Mata village in Udaipur. Vegetables have more or less disappeared from the diet of women in villages across India. Working with women on the issue of menstrual hygiene and management in Rajasthan, our teams set out to mobilize and encourage women to build their own kitchen gardens! Women invited to Goonj’s ‘Chuppi Todo Baithak’ awareness session on menstrual hygiene, taboos, discussed and shared about their challenges. With Seeds provided by Goonj, many women immediately started building their gardens. On a visit to their villages sometime later we saw a green kitchen garden sprouting in almost every house.
+
+                        Kamla, another resident from the area shared- “We would earlier walk 8 km, spending more than an hour, to buy vegetables. Having a nutrition garden at home makes life much easier for us.”
+                        
+                        Goonj believes that menstrual health and hygiene is a complex issue which touches on the social, physical, psychological and health of a woman. That’s why a comprehensive approach aimed at building an ecosystem around these issues is needed. To know more about our work log on to <a href="#" class="but">http://bit.ly/ParshuramNJPC</a></p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+              </div>
+              <div class="col-md-2 " >
+                <div class="card mb-3" style="border:none;">
+                     <div class="card-body">
+                       <h1 class=" cloth">NJPC</h1>
+                       <p class="card-text ">Understanding deeper connect between Cloth, Women and their Dignity.
+                      <hr class="hor">
+                     <p class="get"> Get Involved </p>
+                     <a  href="#"><button type="button" class="btn btn-danger " value="contribute" >CONTRIBUTE</button></a> 
+                     <p class="mt-3" style="font-size:15px; ">Write to us at <a href="#" class="but">mail@sParshuram.org</a></p>
+                     
+                       </div>
+               </div>
+              </div>
+              
+             
+             <div class="col-md-10 ">
+              <div class="card mb-3"   >
+                <div class="row g-0">
+                 <div class="col-md-4">
+                   <img src="health2.webp" class="img-fluid rounded-start" alt="..." style="height:250px">
+                 </div>
+                 <div class="col-md-8">
+                   <div class="card-body">
+                     <h5 class="card-title title" >Realities of menstruation and drought</h5>
+                     <p class="card-text">“कोई कोई एक कपड़ा चार बार इस्तेमाल करे है, कोई दस बार.” (some of us use one cloth 4 times while others use it 10 times). Another woman said, “माहवारी समस्या लगती है. अपनी समस्या किस्से कहे, अपने मर्द से भी नहीं कहे सकतें. जब कपड़ा गंधा भी मिल जाता है. धो कर सुखा लेते है माहवारी के लिए.” (Menstruation seems like a problem. Who do we talk to about it? Can’t even speak to our husband about it.. Even when we find a dirty cloth, we wash it, dry it and use it for menstruation.)
+
+                      Earning not more than 150-200 a day as daily wage labourers, these women struggle for cloth in a time when even water and food is challenge.. Many live with only 2 synthetic saris for 1-2 years. Old cloth is commonly used and reused for menstruation, for months at end. Some even said they wished to stop their menstruation since it only added to their troubles.
+                      To read more click <a href="#" class="but">njpc@parshuram.org</a></p></p>
+                   </div>
+                 </div>
+               </div>
+             </div>
+               </div>
+               <div class="col-md-2 ">
+                <div class="card mb-3" style="border:none;">
+                     <div class="card-body">
+                      For CSR funding opportunities and other activities,  write to <a href="#" class="but">abhinav@Parshuram.org, chandan@Parshuram.org.</a>
+                      <hr class="hor">
+                       <p class="card-text get" >To Know More
+                        <a  href="#"><button type="button" class="btn btn-danger mt-3" value="contribute" >Our Impact</button></a> 
+                       
+                      </p>
+                     </div>
+               </div>
+      
+              </div>
+              
+            <div class="col-md-10 ">
+              <div class="card mb-3"   >
+                <div class="row g-0">
+                 <div class="col-md-4">
+                   <img src="health3.png" class="img-fluid rounded-start" alt="..." style="height:180px">
+                 </div>
+                 <div class="col-md-8">
+                   <div class="card-body">
+                     <h5 class="card-title title" >The Story of Cloth and the Impact on the Environment..</h5>
+                     <p class="card-text">The  environmental  disaster  around menstruation  right  in  our  midst,  in  the  cities.  Allowing  this  same scenario  to  repeat  itself  in  the  villages,  will be  something  all  of  us working  on  this  issue,  will  have  to  be  accountable  for  in  times  to come.</p>
+                   </div>
+                 </div>
+               </div>
+             </div>
+            </div>
+            <div class="col-md-2 ">
+              <div class="card mb-3" style="border:none;">
+                   <div class="card-body">
+                    
+                      <a  href="#"><button type="button" class="btn btn-danger mt-3" value="contribute" >Latest Annual Report</button></a> 
+                    </p>
+                   </div>
+             </div>
+    
+            </div>
+            <div class="col-md-10 ">
+              <div class="card mb-3"   >
+                <div class="row g-0">
+                 <div class="col-md-4">
+                   <img src="health1.webp" class="img-fluid rounded-start" alt="..." style="height:200px">
+                 </div>
+                 <div class="col-md-8">
+                   <div class="card-body">
+                     <h5 class="card-title title" >The Journey from Cloth to ‘MY Pad’..</h5>
+                     <p class="card-text">The  environmental  disaster  around menstruation  right  in  our  midst,  in  the  cities.  Allowing  this  same scenario  to  repeat  itself  in  the  villages,  will be  something  all  of  us working  on  this  issue,  will  have  to  be  accountable  for  in  times  to come</p>
+                   </div>
+                 </div>
+               </div>
+             </div>
+            </div>
+          </div>
+          <h5 class="share">Share this page</h5>
+          <div class="  media">
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-facebook fb"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram instag"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-square-twitter twitter1"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-whatsapp whats"></i></a></li>
+          </ul>
+           </div>
+           <div class=" footer">
+            <p class="disc">Disclaimer</p>
+            <p>No third party agency is working on behalf of Parshuram for any recruitment, trainings, camps or other activities related to Parshuram. Please check/consult with Parshuram directly to get correct information or assistance. Please beware of any unwarranted claims made by anyone on our behalf. Kindly bring any such claims to our notice for immediate attention and action.</p>
+            <p> Parshuram doesn't charge any money from anyone for these activities. So if you come across any individual/ organization making a monetary demand in our name please bring it to our notice immediately on mail@parshuram.org</p>
+            <div class="para">
+              <p >Contact Us</p>
+              <p><i class="fa-solid fa-location-dot"></i>  J-93, Sarita Vihar, New Delhi-110076     </p>
+              <p><i class="fa-regular fa-envelope"></i>  mail@parshuram.org</p>
+              <p><i class="fa-solid fa-mobile"></i> Call Us: 011-26972351, 41401216</p>
+             </div>
+             <div class="sgst">
+              <p >Write to Us</p>
+               <input type="text" placeholder="email" class="feed">
+              <p>Your Email</p>
+              <input type="text" placeholder="messages" class="back">
+              <p> <input type="button" value="submit" class="submit"></p>
+            </div>
+            <div class="faq">
+              <hr class="ruler">
+              <ul><li><a href="#">FAQ</a></li>
+               <li class="vertical"> </li>
+               <li><a href="#">Annula report</a></li>
+               <li class="vertical"> </li>
+               <li><a href="#">Privacy Policy</a></li>
+              </ul>
+               </div>
+            </div>  
+         
+         
+             </body>
+</head>
+</html>

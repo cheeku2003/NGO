@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .header
+     {
+      background-color: rgb(93, 93, 165);
+      height: 100px;
+      position:fixed;
+      z-index: 1;
+      
+     }
+     .menu
+     {
+      float: right;
+      font-size: 20px;
+     margin-top: 50px;
+     }
+     .image
+     {
+      height:60px;
+      width:60px;
+      float:left;
+
+     }
+     .home
+     {
+      color: rgb(244, 235, 235);
+      width:30px;
+      height:50px;
+     }
+     .button
+     {
+width:120px;
+      height:50px;
+      
+     }
+     .info
+     {
+      color:  rgb(244, 235, 235);
+      margin-top: 10px;
+     }
+     .logo
+     {
+
+      margin-top: 40px;
+     }
+     .search
+     {
+      margin-right: 50px;
+      margin-left: 70px;
+     }
+     .image1
+     {
+      width:100%;
+      height:600px;
+     }
+    .cards
+    {
+      margin-top: 50px;
+      
+    }
+    .share
+{
+  font-weight: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+.media
+{
+  margin-left: 40%;
+  
+}
+.media ul
+{
+  list-style: none;
+}
+.media ul li
+{
+  float: left;
+  margin-left: 10px;
+ 
+}
+
+ .fb
+{
+ 
+    width: 50px;
+    height:50px;
+   
+}
+.fb:hover
+{
+  color: rgb(59,89,152) !important;
+}   
+.twitter1
+ {
+  width: 50px;
+    height:50px;
+ }
+ .whats
+ {
+  width: 50px;
+    height:50px;
+    color:rgb(31,211,102);
+ }
+ .instag
+{
+  
+    width: 50px;
+    height:50px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color:white;
+}
+.instag:hover
+ {
+  color:white; 
+ }
+.footer
+{
+  width:100%;
+  height:600px;
+  background-color:rgb(93, 93, 165);
+  margin-top: 70px;
+}
+.disc
+{
+  font-size: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.footer p
+{
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 100px;
+  color:white;
+}
+.para
+ {
+  float: left;
+ }
+ .sgst
+ {
+  float: right;
+
+ }
+ .back
+ {
+  margin-right: 200px;
+  margin-left: 50px;
+  width: 500px;
+  height: 100px;
+  background-color: rgb(59,89,152);
+border: 2px solid brown;
+padding: 5px;
+
+ }
+.feedback p
+ {
+  text-align: justify;
+ }
+ .submit
+ {
+  margin: 5px;
+  color:green;
+  border:2px solid brown ;
+ background-color:rgb(59,89,152) ;
+ }
+ .feed
+ {
+  
+  margin-right: 200px;
+  margin-left: 50px;
+  width: 500px;
+  height: 50px;
+  background-color: rgb(59,89,152);
+border: 2px solid brown;
+padding: 5px;
+
+ }
+ .ruler
+ {
+  width:100%;
+  color:white;
+ }
+ .faq ul
+ {
+  list-style: none;
+ }
+ .faq ul li
+ {
+  float: left;
+  margin-left: 20px;
+ }
+ .faq a 
+ {
+  color:white;
+  font-size: 20px;
+  text-decoration: none;
+ }
+ .vertical
+ {
+  border:1px solid white;
+  height:40px;
+ }
+ .content
+ {
+  float: left;
+ }
+ .clear
+ {
+  clear: both;
+ }
+ .help
+ {
+  float: right;
+ }
+   .bgimage
+   {
+    background-image: url("disaster3.jpg");
+      width:100%;
+      height:500px;
+      background-size: 100% 100%;
+      padding: 200px;
+      color:white;
+      font-size: 30px;
+      text-align: center;
+      margin-top:40px ;
+   }
+   .cloth
+{
+    color:rgb(59,89,152);
+    font-size: 20px;
+    font-weight: 10px;
+}
+  .con
+  {
+    margin-top: 50px;  
+  }
+  .hor
+  {
+margin-left: 10px;
+  }
+  .get
+  {
+    font-size: 20px;
+   
+  }
+  .but
+  {
+    text-decoration: none;
+    color:rgb(59,89,152);
+  }
+  
+   </style>
+        <body >
+            <nav class="navbar navbar-expand-sm bg-light">
+                <div class="container-fluid header">
+                  <div class="logo"><img src="logo.jpeg " class="image"></div>
+                  <div class="menu"> 
+                  <ul class="navbar-nav my ">
+                    <li class="nav-item">
+                      <a class="nav-link" href="project.html"><i class="fa-solid fa-house-user home"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link info" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link info" href="#">Impact</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link info" href="#">Get Involved</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link info" href="#">Latest Update</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link info" href="#">Contribute Material</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#">Covid Help</a>
+            </li>
+            <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link info search" href="# ">
+          <i class="fa-sharp fa-solid fa-magnifying-glass"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#"><i class="fa-brands fa-instagram insta"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#"><i class="fa-brands fa-square-twitter twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#"><i class="fa-brands fa-square-youtube"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contribute.html"><button type="button" class="btn btn-danger button" value="contribute">CONTRIBUTE</button></a>
+            </li>
+             </ul>
+         </div>
+              </nav>
+              <div class="bgimage"> </div>
+              <div>
+                <div class="row g-0">
+                  <div class="col-md-10 mt-3">
+                    <div class="card mb-3"   >
+                      <div class="row g-0">
+                       <div class="col-md-4">
+                         <img src="fdisaster.jpg" class="img-fluid rounded-start" alt="..." style="height:300px">
+                       </div>
+                       <div class="col-md-8">
+                         <div class="card-body">
+                           <h5 class="card-title title" >Recent floods across northern Karnataka saw massive destruction affecting the lives of millions of families in 12 districts where the evacuated people returned home to barren lands.</h5>
+                           <p class="card-text">Recent floods across northern Karnataka saw massive destruction affecting the lives of millions of families in 12 districts where the evacuated people returned home to barren lands.
+
+                            When floods wrecked Shilpa’s ( Name changed) small grocery store in Nagaral,( Bagalkot) in Karnataka, she was already battling the loss of a dear one. Parshuram motivated her to set up the store again by providing basic and necessary material under our ‘Vapsi’ initiative.
+                            
+                            Parshuram’s Vapsi initiative is about reviving the local economy of a flood-hit area by engaging people in local occupations. It is not just about livelihood but also prevents migration. Millions of families are facing similar situations across 8 flood-hit states of India. Your contributions matters: link
+                            
+                            Partner Organisation – Anthodaya Social Service Society</p>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                  </div>
+                  <div class="col-md-2 " >
+                    <div class="card mb-3" style="border:none;">
+                         <div class="card-body">
+                           <h1 class=" cloth">Rahat</h1>
+                           <p class="card-text ">Parshuram has been working on varied disasters from Earthquakes to Tsunami, Cyclones, Floods.
+                          <hr class="hor">
+                         <p class="get"> Get Involved </p>
+                         <a  href="#"><button type="button" class="btn btn-danger " value="contribute" >CONTRIBUTE</button></a> 
+                          </div>
+                   </div>
+                  </div>
+                    <div class="col-md-10 ">
+                  <div class="card mb-3"   >
+                    <div class="row g-0">
+                     <div class="col-md-4">
+                       <img src="cdisaster.jpg" class="img-fluid rounded-start" alt="..." style="height:250px">
+                     </div>
+                     <div class="col-md-8">
+                       <div class="card-body">
+                         <h5 class="card-title title" >Many people also made monetary contributions</h5>
+                         <p class="card-text">When Dr. Pathak and 20+ volunteer at Kalyan, Navi Mumbai organized a Parshuram Collection Camp during Daan Utsav, over 400 people turned up to contribute urgently needed material and money for flood-affected families!!! Neatly folded clothes, labeled boxes, new shirts and people volunteering to pack and load material into trucks..everything pointed to special efforts made by this dedicated set of volunteers to highlight mindful giving. Many people also made monetary contributions to understand how Money Matters with Material! We applaud the efforts of this enthusiastic team of volunteers.. May your tribe grow..
+
+                          If you too want to organize a <a href="#" class="but">#CollectionCamp </a> your city, know that a group of motivated, driven, like-minded people all across India are there to work with you.. For more details write to <a href="#" class=" but">volunteers@Parshuram.org | www.Parshuram.org</a></p>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                   </div>
+                   <div class="col-md-2 ">
+                    <div class="card mb-3" style="border:none;">
+                         <div class="card-body">
+                          <p class="mt-3" style="font-size:15px; ">Write to us at <a href="#" class="but">mail@sParshuram.org</a></p>
+                          For CSR funding opportunities and other activities,  write to <a href="#" class="but">abhinav@Parshuram.org, chandan@Parshuram.org.</a>
+                          <hr class="hor">
+                          
+                          </p>
+                         </div>
+                   </div>
+          
+                  </div>
+                  <div class="col-md-10 ">
+                  <div class="card mb-3"   >
+                    <div class="row g-0">
+                     <div class="col-md-4">
+                       <img src="rahat.jpg" class="img-fluid rounded-start" alt="..." style="height:250px">
+                     </div>
+                     <div class="col-md-8">
+                       <div class="card-body">
+                         <h5 class="card-title title" >Parshuram team is on the ground</h5>
+                         <p class="card-text">Severe monsoon rains recently rummaged through Bihar causing massive flooding in over 13 districts and affecting millions of families. Located near Budhi Gandhak river people of Kanjhi Tola village in West Champaran suffered badly as floods damaged their crops and land. Team Parshuram mobilized and motivated people and brought together over 55 residents to build a check dam over the river. In just one day, using the material that Parshuram provided and locally available resources, they managed to build the dam. Parshuram rewarded the efforts of people by reaching comprehensive and carefully made Family Kits.
+
+                          Parshuram team is on the ground, reaching relief material and working with affected families in Bihar and other states. The need is urgent. Do your bit: <a href=" #" class=" but">bit.ly/FloodsInIndia</a></p>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                </div>
+                <div class="col-md-2 ">
+                  <div class="card mb-3" style="border:none;">
+                       <div class="card-body">
+                       
+                         <p class="card-text get" >To Know More
+                          <a  href="#"><button type="button" class="btn btn-danger mt-3" value="contribute" >Our Impact</button></a> 
+                          <a  href="#"><button type="button" class="btn btn-danger mt-3" value="contribute" >Latest Annual Report</button></a> 
+                        </p>
+                       </div>
+                 </div>
+        
+                </div>
+                <div class="col-md-10 ">
+                  <div class="card mb-3"   >
+                    <div class="row g-0">
+                     <div class="col-md-4">
+                       <img src="bal.jpg" class="img-fluid rounded-start" alt="..." style="height:150px">
+                     </div>
+                     <div class="col-md-8">
+                       <div class="card-body">
+                         <h5 class="card-title title" >On-ground situation in Balrampur, Uttar Pradesh</h5>
+                         <p class="card-text">On-ground situation in Balrampur, Uttar Pradesh. The houses and lands in the area are completely flooded. Our team is on the ground, working to reach relief material to affected families..
+
+                          Your contributions are crucial.
+                          Know more here: <a  href=" http://bit.ly/ParshuramFloods"></a></p>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                </div>
+              </div>    
+              <h5 class="share">Share this page</h5>
+    <div class="  media">
+      <ul>
+        <li><a href="#"><i class="fa-brands fa-facebook fb"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram instag"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-square-twitter twitter1"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-whatsapp whats"></i></a></li>
+    </ul>
+     </div>
+     <div class=" footer">
+      <p class="disc">Disclaimer</p>
+      <p>No third party agency is working on behalf of Parshuram for any recruitment, trainings, camps or other activities related to Parshuram. Please check/consult with Parshuram directly to get correct information or assistance. Please beware of any unwarranted claims made by anyone on our behalf. Kindly bring any such claims to our notice for immediate attention and action.</p>
+      <p> Parshuram doesn't charge any money from anyone for these activities. So if you come across any individual/ organization making a monetary demand in our name please bring it to our notice immediately on mail@parshuram.org</p>
+      <div class="para">
+        <p >Contact Us</p>
+        <p><i class="fa-solid fa-location-dot"></i>  J-93, Sarita Vihar, New Delhi-110076     </p>
+        <p><i class="fa-regular fa-envelope"></i>  mail@parshuram.org</p>
+        <p><i class="fa-solid fa-mobile"></i> Call Us: 011-26972351, 41401216</p>
+       </div>
+       <div class="sgst">
+        <p >Write to Us</p>
+         <input type="text" placeholder="email" class="feed">
+        <p>Your Email</p>
+        <input type="text" placeholder="messages" class="back">
+        <p> <input type="button" value="submit" class="submit"></p>
+      </div>
+      <div class="faq">
+        <hr class="ruler">
+        <ul><li><a href="#">FAQ</a></li>
+         <li class="vertical"> </li>
+         <li><a href="#">Annula report</a></li>
+         <li class="vertical"> </li>
+         <li><a href="#">Privacy Policy</a></li>
+        </ul>
+         </div>
+      </div>  
+        </body>
+        </html>

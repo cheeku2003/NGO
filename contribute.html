@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .header
+     {
+      background-color: rgb(93, 93, 165);
+      height: 100px;
+      position:fixed;
+      z-index: 1;
+     }
+     .menu
+     {
+      float: right;
+      font-size: 20px;
+     margin-top: 50px;
+     }
+     .image
+     {
+      height:60px;
+      width:60px;
+      float:left;
+
+     }
+     .home
+     {
+      color: rgb(244, 235, 235);
+      width:30px;
+      height:50px;
+     }
+     .button
+     {
+width:120px;
+      height:50px;
+      
+     }
+     .info
+     {
+      color:  rgb(244, 235, 235);
+      margin-top: 10px;
+     }
+     .logo
+     {
+
+      margin-top: 40px;
+     }
+     .search
+     {
+      margin-right: 50px;
+      margin-left: 70px;
+     }
+     .image1
+     {
+      width:100%;
+      height:600px;
+     }
+     
+     .bgimage
+     {
+      background-image: url("contribute.jpg");
+      width:100%;
+      height:500px;
+      background-size: 100% 100%;
+      padding: 50px;
+      font-size: 30px;
+      text-align: center;
+    }
+    .onform
+    {
+      width: 450px;
+      height: 430px;
+      background-color: whitesmoke;
+      float: left;
+    }
+    .btn
+    {
+    background-color: aliceblue;
+    margin-left: 20px;
+    color: black;
+    }
+   
+      .what
+    {
+      font-weight: 30px;
+      font-size: 50px;
+      text-align: center;
+    }
+    .buton  
+    {
+      width:80%;
+      height:30px;
+      background-color: black;
+    }
+  
+    
+    </style>
+        <body >
+            <nav class="navbar navbar-expand-sm bg-light">
+                <div class="container-fluid header">
+                  <div class="logo"><img src="logo.jpeg " class="image"></div>
+                  <div class="menu"> 
+                  <ul class="navbar-nav my ">
+                    <li class="nav-item">
+                      <a class="nav-link" href="project.html"><i class="fa-solid fa-house-user home"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link info" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link info" href="#">Impact</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link info" href="#">Get Involved</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link info" href="#">Latest Update</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link info" href="#">Contribute Material</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#">Covid Help</a>
+            </li>
+            <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link info search" href="# ">
+          <i class="fa-sharp fa-solid fa-magnifying-glass"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#"><i class="fa-brands fa-instagram insta"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#"><i class="fa-brands fa-square-twitter twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#"><i class="fa-brands fa-square-youtube"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contribute.html"><button type="button" class="btn btn-danger button" value="contribute">CONTRIBUTE</button></a>
+            </li>
+            
+        </ul>
+         </div>
+              </nav>
+              <div class="bgimage ">
+                <div class="onform">
+                  <div class="container mt-3 ">
+                  
+                    <button type="button" class="btn btn-danger btn">ONE TIME</button>
+                    <button type="button" class="btn btn-danger btn">MONTHLY</button>
+                    <button type="button" class="btn btn-danger btn">TEAM 5000</button> 
+                    <button type="button" class="btn btn-danger mt-4 btn" style="width:100px" id="btn1">2000</button>
+                    <button type="button" class="btn btn-danger mt-4 btn" style="width:100px" id="btn2">4000</button>
+                    <button type="button" class="btn btn-danger mt-4 btn" style="width:100px" id="btn3">10000</button>
+                    <button type="button" class="btn btn-danger button" style="width:40px;margin-top: -11px;;"><span> &#8377;</span></button>
+                    <input type="text" id="other_amt" class="mt-4" placeholder="Other amount"/>
+                    <button type="button" class="btn btn-danger btn" data-bs-toggle="modal" data-bs-target="#myModal">
+                      Open modal
+                    </button>
+                    </div>
+                  </div>
+                </div>
+                <h2 class="what">Our Compaign</h2>
+              
+              
+                <script>
+                  const btn1 = document.getElementById("btn1");
+                  const btn2 = document.getElementById("btn2");
+                  const btn3 = document.getElementById("btn3");
+                  
+                  const input = document.getElementById("other_amt");
+                  
+                  btn1.addEventListener("click", function()
+                  {
+                    input.value = btn1.innerText;
+                  });
+                  
+                  btn2.addEventListener("click", function()
+                  {
+                    input.value = btn2.innerText;
+                  });
+                  btn3.addEventListener("click", function()
+                  {
+                    input.value = btn3.innerText;
+                  });
+                  let items = document.querySelectorAll('.carousel .carousel-item')
+
+
+   
+ 
+     
+
+                </script>
+        </body>
+        </html>

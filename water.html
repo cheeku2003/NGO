@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .header
+     {
+      background-color: rgb(93, 93, 165);
+      height: 100px;
+      position:fixed;
+      z-index: 1;
+     }
+     .menu
+     {
+      float: right;
+      font-size: 20px;
+     margin-top: 50px;
+     }
+     .image
+     {
+      height:60px;
+      width:60px;
+      float:left;
+
+     }
+     .home
+     {
+      color: rgb(244, 235, 235);
+      width:30px;
+      height:50px;
+     }
+     .button
+     {
+width:120px;
+      height:50px;
+      
+     }
+     .info
+     {
+      color:  rgb(244, 235, 235);
+      margin-top: 10px;
+     }
+     .logo
+     {
+
+      margin-top: 40px;
+     }
+     .search
+     {
+      margin-right: 50px;
+      margin-left: 70px;
+     }
+     .image1
+     {
+      width:100%;
+      height:600px;
+     }
+     .lake
+     {
+     background-image: url("Pond.webp");
+      width:100%;
+      height:400px;
+      background-size: 100% 100%;
+      padding: 200px;
+      color:black;
+      font-size: 30px;
+      font-weight: 80px;
+      text-align: center;
+     }
+     .water
+     {
+        font-size: 50px;
+        color: black;
+         text-align: center;
+       margin-top: 100px;
+       margin-left: 600px;
+     }
+     .content
+     {
+        margin-top: 30px;
+        float:left;
+        margin-left: 40px;
+        width:90%;
+        float: left;
+     }
+.title
+{
+    font-size: 30px;
+}
+
+.cards
+{
+  width:1100px;
+}
+.clear
+{
+  clear: both;
+}
+.share
+{
+  font-weight: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+.media
+{
+  margin-left: 40%;
+  
+}
+.media ul
+{
+  list-style: none;
+}
+.media ul li
+{
+  float: left;
+  margin-left: 10px;
+ 
+}
+
+ .fb
+{
+ 
+    width: 50px;
+    height:50px;
+   
+}
+.fb:hover
+{
+  color: rgb(59,89,152) !important;
+}   
+.twitter1
+ {
+  width: 50px;
+    height:50px;
+ }
+ .whats
+ {
+  width: 50px;
+    height:50px;
+    color:rgb(31,211,102);
+ }
+ .instag
+{
+  
+    width: 50px;
+    height:50px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color:white;
+}
+.instag:hover
+ {
+  color:white; 
+ }
+.footer
+{
+  width:100%;
+  height:600px;
+  background-color:rgb(93, 93, 165);
+  margin-top: 70px;
+}
+.disc
+{
+  font-size: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.footer p
+{
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 100px;
+  color:white;
+}
+.para
+ {
+  float: left;
+ }
+ .sgst
+ {
+  float: right;
+
+ }
+ .back
+ {
+  margin-right: 200px;
+  margin-left: 50px;
+  width: 500px;
+  height: 100px;
+  background-color: rgb(59,89,152);
+border: 2px solid brown;
+padding: 5px;
+
+ }
+.feedback p
+ {
+  text-align: justify;
+ }
+ .submit
+ {
+  margin: 5px;
+  color:green;
+  border:2px solid brown ;
+ background-color:rgb(59,89,152) ;
+ }
+ .feed
+ {
+  
+  margin-right: 200px;
+  margin-left: 50px;
+  width: 500px;
+  height: 50px;
+  background-color: rgb(59,89,152);
+border: 2px solid brown;
+padding: 5px;
+
+ }
+ .ruler
+ {
+  width:100%;
+  color:white;
+ }
+ .faq ul
+ {
+  list-style: none;
+ }
+ .faq ul li
+ {
+  float: left;
+  margin-left: 20px;
+ }
+ .faq a 
+ {
+  color:white;
+  font-size: 20px;
+  text-decoration: none;
+ }
+ .vertical
+ {
+  border:1px solid white;
+  height:40px;
+ }
+.cloth
+{
+    color:rgb(59,89,152);
+    font-size: 20px;
+    font-weight: 10px;
+}
+  .con
+  {
+    margin-top: 50px;  
+  }
+  .hor
+  {
+margin-left: 10px;
+  }
+  .get
+  {
+    font-size: 20px;
+   
+  }
+  .but
+  {
+    text-decoration: none;
+    color:rgb(59,89,152);
+  }
+  
+  </style>
+        <body >
+            <nav class="navbar navbar-expand-sm bg-light">
+                <div class="container-fluid header">
+                  <div class="logo"><img src="logo.jpeg " class="image"></div>
+                  <div class="menu"> 
+                  <ul class="navbar-nav my ">
+                    <li class="nav-item">
+                      <a class="nav-link" href="project.html"><i class="fa-solid fa-house-user home"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link info" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link info" href="#">Impact</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link info" href="#">Get Involved</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link info" href="#">Latest Update</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link info" href="#">Contribute Material</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#">Covid Help</a>
+            </li>
+            <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link info search" href="# ">
+          <i class="fa-sharp fa-solid fa-magnifying-glass"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#"><i class="fa-brands fa-instagram insta"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#"><i class="fa-brands fa-square-twitter twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link info" href="#"><i class="fa-brands fa-square-youtube"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><button type="button" class="btn btn-danger button" value="contribute">CONTRIBUTE</button></a>
+            </li>
+            
+        </ul>
+      </div>
+              </nav>
+      <div class="lake"><div class="water"><h>water </h></div></div>
+    
+      <div class="row g-0">
+        <div class="col-md-10 mt-3">
+          <div class="card mb-3"   >
+            <div class="row g-0">
+             <div class="col-md-4">
+               <img src="water1.jpeg" class="img-fluid rounded-start" alt="..." style="height:350px">
+             </div>
+             <div class="col-md-8">
+               <div class="card-body">
+                 <h5 class="card-title title" >“We are afraid of hunger more than of Covid”, Sandhiha village</h5>
+                 <p class="card-text">In Sandhiha village, 30 km from Hazaribagh district headquarters in Jharkhand and situated in a valley guarded by mountains, people from all communities live together in harmony. Majority of the villagers usually migrate to the city for work. However, due to Covid and the following lockdown they are all back and stuck in their homes without any work.
+    
+                   “It has become very difficult for us to run our house and as of now, it is not known how long we will have to fight this disaster. Right now we want to do farming for the living and survival of our family, as that is our only means. But we do not have any water source so we depend on rain water only. And even that does not last long. Apart from agriculture we do not have any other option or resources to feed ourselves,” Vinod Kumar Mahto, a local, said.
+                   
+                   “When Parshuram team visited our area, they organized a meeting to discuss our concerns. They told us to make a small pond under their Dignity For Work (DFW) initiative, through which we can save rain water so that people can continue irrigation in the field by using the collected water,” he added.
+                   
+                   The very next day after the meeting, the villagers came together and made a 10-foot-deep pond (30x30ft in size). After the activity, Mr Mahto said, “Now we will continue our irrigation work in our fields and will save ourselves from hunger during this pandemic, because we are not as much afraid of Covid as we are of hunger.”</p>
+               </div>
+             </div>
+           </div>
+         </div>
+        </div>
+        <div class="col-md-2 " >
+          <div class="card mb-3" style="border:none;">
+               <div class="card-body">
+                 <h1 class=" cloth">Cloth For Work(CFW)</h1>
+                 <p class="card-text ">Turning old material into a resource for rural development activities.
+                <hr class="hor">
+               <p class="get"> Get Involved </p>
+               <a  href="#"><button type="button" class="btn btn-danger " value="contribute" >CONTRIBUTE</button></a> 
+               <p class="mt-3" style="font-size:15px; ">Write to us at <a href="#" class="but">mail@sParshuram.org</a></p>
+               For CSR funding opportunities and other activities,  write to <a href="#" class="but">abhinav@Parshuram.org, chandan@Parshuram.org.</a>
+                 </div>
+         </div>
+        </div>
+        
+       
+       <div class="col-md-10 ">
+        <div class="card mb-3"   >
+          <div class="row g-0">
+           <div class="col-md-4">
+             <img src="water2.jpg" class="img-fluid rounded-start" alt="..." style="height:350px">
+           </div>
+           <div class="col-md-8">
+             <div class="card-body">
+               <h5 class="card-title title" >Well works wonders</h5>
+               <p class="card-text">Thimmasandra, a village in Kolar district of Karnataka, is home to a community of farmers engaged in growing mangoes and tomatoes apart from sheep rearing and milk production. The village housed a well that had been used by generations. However, after being left unattended for nearly half a century, it soon became a dumping ground for garbage and carcasses of animals which often resulted in a stench. When Team Parshuram suggested the community to clean the well under parshuram’s ‘Dignity for Work’ (DFW) initiative, the locals were initially reluctant to undertake the cleaning as they were unsure of the result. However, after a few interactions with the team, when they realized that it was their collective responsibility to preserve their resources, 45 residents came forward to clean and restore the well to its former glory. Today, as a result of the activity, the well can be used to store groundwater. Parshuram rewarded their efforts with essential kits consisting of ration, mats and other basic essentials. For the people of J. Thimmasandra, this activity proved to be an eye opener, for it made them understand the importance of a clean and healthy environment and the power of collective action.</p>
+             </div>
+           </div>
+         </div>
+       </div>
+         </div>
+         <div class="col-md-2 ">
+          <div class="card mb-3" style="border:none;">
+               <div class="card-body">
+                <hr class="hor">
+                 <p class="card-text get" >To Know More
+                  <a  href="#"><button type="button" class="btn btn-danger mt-3" value="contribute" >Our Impact</button></a> 
+                  <a  href="#"><button type="button" class="btn btn-danger mt-3" value="contribute" >Latest Annual Report</button></a> 
+                </p>
+               </div>
+         </div>
+
+        </div>
+        
+      <div class="col-md-10 ">
+        <div class="card mb-3"   >
+          <div class="row g-0">
+           <div class="col-md-4">
+             <img src="irrigation.jpg" class="img-fluid rounded-start" alt="..." style="height:200px">
+           </div>
+           <div class="col-md-8">
+             <div class="card-body">
+               <h5 class="card-title title" >Farm pond made ready for irrigation</h5>
+               <p class="card-text">Pudiyani village in the Chamoli district of Uttarakhand was facing acute water shortage and it took a heavy toll on the women in the region. 45 women came together to dig a (10×4.2ft) pond and in just a few days they had their farm pond ready for irrigation and to store water for their livestock.</p>
+             </div>
+           </div>
+         </div>
+       </div>
+      </div>
+      <div class="col-md-10 ">
+        <div class="card mb-3"   >
+          <div class="row g-0">
+           <div class="col-md-4">
+             <img src="dam.jpg" class="img-fluid rounded-start" alt="..." style="height:300px">
+           </div>
+           <div class="col-md-8">
+             <div class="card-body">
+               <h5 class="card-title title" >285 people of Mudgal village, Raichur, Karnataka create a check dam on their own!</h5>
+               <p class="card-text">Karnataka; Raichur’s water situation has severely deteriorated in the last few years affecting the local agriculture and animals as well. Families surviving on less than 10 water pots a day are forced to sell their cattle for meagre amounts as they can’t fulfill their water needs.
+
+                For the people of Mudgal village in Raichur district, their local check dam was their only water source and the one place their rainwater was collected. Goonj’s Karnataka Team mobilized and motivated the villagers to work together and repair their dam. Over 285 people worked tirelessly to locally collect stones to cover the 60 x 60 ft check dam.. all on their own! This much needed repair strengthened the walls of the dam and has increased its life for water collection in the monsoons.
+                
+                In last one year alone (2017-18) Goonj organised over 880 water related projects across India. Read more stories here:<a  href="https://Parshuram.org/category/water/"></a></p>
+             </div>
+           </div>
+         </div>
+       </div>
+      </div>
+    </div>
+    <h5 class="share">Share this page</h5>
+    <div class="  media">
+      <ul>
+        <li><a href="#"><i class="fa-brands fa-facebook fb"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram instag"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-square-twitter twitter1"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-whatsapp whats"></i></a></li>
+    </ul>
+     </div>
+     <div class=" footer">
+      <p class="disc">Disclaimer</p>
+      <p>No third party agency is working on behalf of Parshuram for any recruitment, trainings, camps or other activities related to Parshuram. Please check/consult with Parshuram directly to get correct information or assistance. Please beware of any unwarranted claims made by anyone on our behalf. Kindly bring any such claims to our notice for immediate attention and action.</p>
+      <p> Parshuram doesn't charge any money from anyone for these activities. So if you come across any individual/ organization making a monetary demand in our name please bring it to our notice immediately on mail@parshuram.org</p>
+      <div class="para">
+        <p >Contact Us</p>
+        <p><i class="fa-solid fa-location-dot"></i>  J-93, Sarita Vihar, New Delhi-110076     </p>
+        <p><i class="fa-regular fa-envelope"></i>  mail@parshuram.org</p>
+        <p><i class="fa-solid fa-mobile"></i> Call Us: 011-26972351, 41401216</p>
+       </div>
+       <div class="sgst">
+        <p >Write to Us</p>
+         <input type="text" placeholder="email" class="feed">
+        <p>Your Email</p>
+        <input type="text" placeholder="messages" class="back">
+        <p> <input type="button" value="submit" class="submit"></p>
+      </div>
+      <div class="faq">
+        <hr class="ruler">
+        <ul><li><a href="#">FAQ</a></li>
+         <li class="vertical"> </li>
+         <li><a href="#">Annula report</a></li>
+         <li class="vertical"> </li>
+         <li><a href="#">Privacy Policy</a></li>
+        </ul>
+         </div>
+      </div>  
+    
+    
+      
+        
+      
+  </body>
+</html>
